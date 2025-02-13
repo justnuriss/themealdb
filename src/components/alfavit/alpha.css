@@ -1,0 +1,32 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .alphabet {
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    padding: px;
+    background: rgb(45, 32, 19);
+    border-radius: 8px;
+  }
+  
+  .letter {
+    color: rgb(204, 107, 38);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .letter:hover {
+    background-color: rgb(204, 107, 38);
+    color:white ;
+  }
+  

@@ -1,0 +1,130 @@
+.product-detail {
+    background: rgb(45, 32, 19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    padding: 20px;
+    
+    animation: typing 3s normal forwards;
+  }
+  
+  .product-container {
+    display: flex;
+    background-color: #3e2723; 
+    color: #fff; 
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .product-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+  
+  }
+  
+  .product-info {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+  }
+
+  @keyframes typing{
+    from{
+      width: 70%;
+      height: 0;
+      color: #3e2723;
+     background-color:rgba(0, 0, 0, 0.089) ;
+     visibility: hidden;
+    }
+    to{
+      width: 100%;
+      height: 100%;
+      background-color:#3e2723 ;
+      color: white;
+      visibility: visible;
+
+      
+    }
+  }
+  
+  .product-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    color: #e67e22; 
+    animation: typing 3s ease forwards;
+  }
+  
+  .product-description {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 15px;
+    color: #f1f1f1; 
+    animation: typing 3s alternate forwards;
+  }
+  
+  .product-price {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffd700; 
+  }
+  
+  .buy-button {
+    margin-top: 30px;
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #e67e22; 
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .buy-button:hover {
+    background-color: #d35400; 
+  }
+  
+  .product-info {
+    width: 50%;
+    padding: 20px;
+  }
+  
+  .loading-container, .error-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .spinner-icon {
+    font-size: 50px;
+    color: #e67e22;
+    animation: spin 1s linear infinite;
+  }
+  
+  .error-icon {
+    font-size: 50px;
+    color: #e74c3c;
+  }
+  
+  .loading-container p, .error-container p {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

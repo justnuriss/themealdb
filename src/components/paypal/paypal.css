@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.section-1{
+    width: 100%;
+background: rgb(45, 32, 19);
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.top{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    h1{
+        color: rgb(255, 255, 255);
+font-family: Open Sans;
+font-size: 36px;
+font-weight: 600;
+line-height: 39.6px;
+letter-spacing: 0%;
+text-align: center;
+    }
+    p{
+        color: rgb(255, 255, 255);
+font-family: Open Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+    }
+    button{
+        border-radius: 4px;
+
+background: rgb(255, 196, 57);
+width: 150px;
+height: 32px;
+border: none;
+    }
+}
+
+hr{
+width: 100%;
+    border: 1px solid rgba(94, 91, 91, 0.544);
+}
+
+.inp-btn input{
+    box-sizing: border-box;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 4px 0px 0px 4px;
+    
+    box-shadow: inset 0px 1px 1px 1px rgba(0, 0, 0, 0.08);
+    background: rgb(255, 255, 255);
+    width: 279px;
+height: 34px;
+border: none;
+}
+.inp-btn button{
+    box-sizing: border-box;
+border: 1px solid rgb(204, 204, 204);
+border-radius: 0px 4px 4px 0px;
+
+background: rgb(255, 255, 255);
+width: 40px;
+height: 34px;
+border: none;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.inp-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inp-btn button:hover{
+    background: rgba(201, 195, 195, 0.852);
+}
+.total{
+    display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 40px;
+ h3{
+    color: rgb(255, 255, 255);
+font-family: Open Sans;
+font-size: 14px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 5px;
+ }
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
