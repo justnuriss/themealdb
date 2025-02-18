@@ -6,7 +6,7 @@ function Alpha() {
   const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
 
   return (
-    <div className="alphabet">
+    <div className="alphabet container">
       {
       alphabet.map((letter) => (
         <Link key={letter} to={`/alpha/${letter}`} className="letter">

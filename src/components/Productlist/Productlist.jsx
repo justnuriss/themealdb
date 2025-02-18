@@ -1,6 +1,7 @@
 import React from 'react'
 import './productlist.css'
 import Card from './card/Card'
+import PlistInfo from './info/PlistInfo'
 
 
 function Productlist({data}) {

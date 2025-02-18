@@ -4,6 +4,7 @@ import Section2 from '../components/section-2/Section2'
 import './home.css'
 import Productlist from '../components/Productlist/Productlist'
 import apiClient from '../axios/apiClient'
+import Country from '../components/country/Country'
 
 function Home() {
 
@@ -36,7 +37,6 @@ useEffect(() => {
         <Productlist data={list}/>
         <hr />
     </div>
-  
     </div>
   )
 }
